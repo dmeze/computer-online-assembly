@@ -1,0 +1,35 @@
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 225px);
+}
+
+.submitBtn {
+  width: 100%;
+  height: 30px;
+  margin: 20px 0;
+  border: none;
+  background: #1F83B3;
+  color: #fff;
+  border-radius: 6px;
+
+  &:disabled {
+    background: rgba(31, 131, 179, 0.5);
+    cursor: initial;
+  }
+}
+
+.backBtn {
+  width: 100%;
+  height: 30px;
+  border: 1px #1F83B3 solid;
+  background: #fff;
+  color: #1F83B3;
+  border-radius: 6px;
+
+  &:disabled {
+    background: rgba(227, 226, 226, 0.5);
+    cursor: initial;
+  }
+}

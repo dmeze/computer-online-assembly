@@ -1,0 +1,2 @@
+export const SET_PAGE_LEVEL = 'SET_PAGE_LEVEL'
+export const REMOVE_PAGE_LEVEL = 'REMOVE_PAGE_LEVEL'

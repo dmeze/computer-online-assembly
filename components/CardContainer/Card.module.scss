@@ -1,0 +1,43 @@
+.cardContainer {
+  display: flex;
+  flex-flow: wrap column;
+  position: relative;
+
+  height: 300px;
+  width: 250px;
+
+  background: #fff;
+  border-radius: 6px;
+  border: 1px #d6d6d6 solid;
+  margin: 0 0 5px 5px;
+}
+
+.disabledCard {
+  background: rgba(223, 223, 223, 0.5);
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.cardImage {
+  height: 185px;
+  object-fit: contain;
+}
+
+.cardDescription {
+  padding: 0 10px;
+  text-overflow: ellipsis;
+}
+
+.cardAction {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 10px;
+}

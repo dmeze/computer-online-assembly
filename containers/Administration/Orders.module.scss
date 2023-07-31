@@ -1,0 +1,54 @@
+.ordersTable {
+  padding: 10px 0;
+  height: 70vh;
+  flex-flow: column wrap;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  table {
+    width: 100%;
+  }
+}
+
+.orderWrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.goodWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionCellWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+}
+
+.selectField {
+  border-radius: 4px;
+  border: 1px solid #9E9EA2;
+  width: 225px;
+  z-index: 0;
+}
+
+.exportBtnContainer {
+  display: flex;
+  justify-content: end;
+  width: 98%;
+}
+
+.exportBtn {
+  width: 40px;
+  height: 30px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #1F83B3;
+}

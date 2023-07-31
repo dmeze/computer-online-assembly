@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac3fe475-0038-4ffd-a478-1b656883b451" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ButtonGroup/ButtonGroup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ButtonGroup/ButtonGroup.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ButtonGroup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/CardContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/CardContainer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/FiltersPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/FiltersPanel.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CardContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Checkbox/Checkbox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Checkbox/Checkbox.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Checkbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Icons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/Layout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Login/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Login/Form.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MultiSelect/MultiSelect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MultiSelect/MultiSelect.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MultiSelect/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MultiSelect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/Table.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/Table.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Steps/StepsPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Steps/StepsPanel.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Steps/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Builds/Builds.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Builds/Builds.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Builds/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Home/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Home/HomePage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Login/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Profile/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/Profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/builds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pcBuild1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/rtx4090.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NpJkDYEtaunt8A11V2Cp00ha8h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mezentsevdanylo/WebstormProjects/computer-online-assembly&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/mezentsevdanylo/WebstormProjects/computer-online-assembly/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac3fe475-0038-4ffd-a478-1b656883b451" name="Changes" comment="" />
+      <created>1680355230836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680355230836</updated>
+      <workItem from="1680355231864" duration="8371000" />
+      <workItem from="1680431541435" duration="11305000" />
+      <workItem from="1680605526796" duration="1807000" />
+      <workItem from="1680607341719" duration="3632000" />
+      <workItem from="1680698780990" duration="10103000" />
+      <workItem from="1680774475108" duration="4919000" />
+      <workItem from="1680854040356" duration="576000" />
+      <workItem from="1680968727341" duration="14611000" />
+      <workItem from="1681113265536" duration="2625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

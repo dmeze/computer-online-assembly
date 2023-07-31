@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.filtersContainer {
+  min-width: 200px;
+  overflow: auto;
+  height: 60vh;
+  padding-bottom: 5px;
+}
+
+.filterTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E9E9E9;
+  height: 30px;
+  border-radius: 3px;
+  padding-right: 5px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputLabelContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    width: 90px;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.resetFiltersBtn {
+  width: 170px;
+  height: 30px;
+
+  background: none;
+  color: #049FD9;
+
+  border: 1px solid #049FD9;
+  border-radius: 3px;
+
+  margin: 10px 0;
+
+  &:disabled {
+    border-color: rgba(4, 159, 217, 0.5);
+    background: rgba(190, 190, 190, 0.2);
+    cursor: unset;
+  }
+}
+
+.subBtnContainer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px 15px;
+  border-top: #049FD9 1px solid;
+}
+
+.cancelBtn {
+  width: 75px;
+  height: 30px;
+
+  background: #fff;
+  border: none;
+  color: #049FD9;
+
+  &:disabled {
+    background: rgba(190, 190, 190, 0.1);
+    cursor: unset;
+  }
+}
+
+.submitBtn {
+  width: 75px;
+  height: 30px;
+
+  background: #049FD9;
+  border: 1px solid #049FD9;
+  border-radius: 3px;
+  color: #fff;
+
+  &:disabled {
+    border-color: #dfdfdf;
+    background: rgba(4, 159, 217, 0.6);
+    cursor: unset;
+  }
+}

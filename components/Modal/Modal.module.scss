@@ -1,0 +1,85 @@
+.modalBackground {
+  position: absolute;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background: rgba(158, 158, 162, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  background: white;
+  width: 500px;
+  min-height: 200px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #DFDFDF;
+}
+
+.modalTitle {
+  font-size: 18px;
+}
+
+.modalBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  flex: 1;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  background: #DFDFDF;
+  min-height: 50px;
+}
+
+.closeBtn {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.submitBtn {
+  height: 30px;
+  min-width: 100px;
+  border: none;
+  background: #1F83B3;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 10px;
+
+  &:disabled {
+    background: rgba(31, 131, 179, 0.5);
+    cursor: initial;
+  }
+}
+
+.backBtn {
+  height: 30px;
+  min-width: 100px;
+  border: 1px #1F83B3 solid;
+  background: #fff;
+  color: #1F83B3;
+  border-radius: 3px;
+
+  &:disabled {
+    background: rgba(227, 226, 226, 0.5);
+    cursor: initial;
+  }
+}

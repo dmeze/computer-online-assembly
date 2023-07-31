@@ -1,0 +1,22 @@
+.pageLevelContainer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 5px;
+
+  background-color: #ffd9dc;
+  color: #18191d;
+  border: 1px solid #ff8c96;
+
+  svg {
+    color: #cf2030;
+    margin-right: 10px;
+  }
+}
+
+.pageLevelCloseBtn {
+  margin-left: auto;
+  cursor: pointer;
+}

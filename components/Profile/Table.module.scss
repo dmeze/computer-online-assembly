@@ -1,0 +1,39 @@
+.tableContainer {
+  height: fit-content;
+  width: inherit;
+  display: table;
+  table-layout: fixed;
+}
+
+.tableHead {
+  height: 45px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 12px;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tableBody {
+  display: block;
+  height: 400px;
+  overflow: auto;
+}
+
+.tableRow {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tableCell {
+  height: 50px;
+  text-align: center;
+  font-size: 13px;
+
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

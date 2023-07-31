@@ -1,0 +1,101 @@
+.container {
+  height: 130px;
+  background: #DFDFDF;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 20px 20px;
+  width: 100px;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px gray solid;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+
+  &--active {
+    border-color: #049FD9;
+  }
+
+  &--visited {
+    border-color: #6BBF4E;
+  }
+}
+
+  .iconBar {
+    height: 2px;
+    width: 100%;
+    background: #bebebe;
+    position: relative;
+    bottom: 20px;
+    left: 70%;
+
+    &--visited {
+      background: #6BBF4E !important;
+    }
+
+    &--last {
+      display: none;
+    }
+}
+  .orderBtn {
+    background: #6BBF4E !important;
+    color: #fff;
+    border: 1px solid #6BBF4E;
+    border-radius: 5px;
+  }
+
+  .cartWrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  .goodWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+
+    border-radius: 5px;
+    border: 1px solid #DFDFDF;
+
+    padding: 10px;
+  }
+
+  .infoWrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 45px;
+  }
+
+  .actionBtn {
+    cursor: pointer;
+    width: 14px;
+    height: 16px;
+  }
+
+  .totalPrice {
+    display: flex;
+    justify-content: right;
+
+    margin: 5px 0;
+  }

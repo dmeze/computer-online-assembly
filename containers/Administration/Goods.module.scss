@@ -1,0 +1,116 @@
+.administrationCardContainer {
+  height: calc(100vh - 225px);
+  background: #fff;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: auto;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 56px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.searchField {
+  width: 376px;
+  height: 28px;
+  border: 2px solid #E0E0E0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+  .searchInput {
+    width: 350px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+  }
+}
+
+.addNewBtn {
+  background: #fff;
+  color: #049FD9;
+  height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+  border: 1px solid #049FD9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formHeader {
+  font-weight: 200;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-flow: column;
+}
+
+.fieldLabel {
+  color: #9E9EA2;
+  font-size: 12px;
+  font-weight: bold;
+
+  width: 100%;
+  margin: 5px 0;
+}
+
+.field {
+  border-radius: 4px;
+  border: 1px solid #9E9EA2;
+  height: 25px;
+  width: 225px;
+}
+
+.selectField {
+  border-radius: 4px;
+  border: 1px solid #9E9EA2;
+  width: 225px;
+}
+
+.errorMessage {
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+}
+
+.actionFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.cartBtn {
+  border: 0;
+  background: inherit;
+
+  &--disabled {
+    cursor: unset;
+  }
+}

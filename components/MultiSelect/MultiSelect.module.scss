@@ -1,0 +1,23 @@
+.selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E9E9E9;
+  height: 30px;
+  border-radius: 3px;
+  padding-right: 5px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.options {
+  background: #fff;
+
+  label {
+    display: flex;
+    width: 180px;
+  }
+}

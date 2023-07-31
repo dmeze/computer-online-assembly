@@ -1,0 +1,73 @@
+.header {
+  background: #fff;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  padding: 5px 10px 0 10px !important
+}
+
+.headerTopTitle {
+  font-weight: 270;
+}
+
+.headerTitle {
+  margin: 0 0 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+}
+
+.tabGroupContainer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.tabGroup {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 40px;
+  margin: 20px 20px 0 20px;
+
+  &--selected {
+    border-bottom: 5px solid #1F83B3;
+    border-radius: 3px;
+  }
+}
+
+.headerControls {
+  margin: 10px;
+}
+
+.dropdownBtn {
+  cursor: pointer;
+}
+
+.dropdownWrapper {
+  background: #fff;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  width: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+
+  margin-top: 10px;
+  cursor: pointer;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+  }
+}

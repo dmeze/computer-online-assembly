@@ -1,0 +1,49 @@
+.cardWrapper {
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+
+  width: 400px;
+  height: 450px;
+}
+
+.cardTitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowTitle {
+  color: #9E9EA2;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px 0;
+}
+
+.fieldLabel {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.field {
+  width: 200px;
+}
+
+.icon {
+  color: #292D32;
+  cursor: pointer;
+
+  &:hover {
+    color: #1F83B3;
+  }
+}

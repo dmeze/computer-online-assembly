@@ -1,0 +1,29 @@
+.container {
+  padding: 10px;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 56px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.searchField {
+  width: 376px;
+  height: 28px;
+  border: 2px solid #E0E0E0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+  .searchInput {
+    width: 350px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+  }
+}
