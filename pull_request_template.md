@@ -3,10 +3,10 @@
 Thank you for submitting a pull request! To speed up the review process, please ensure that everything below
 is true:
 
-- [X] No existing features have been broken without good reason.
-- [X] Your commit messages are detailed.
-- [X] Tests have been added or updated to reflect your changes.
-- [X] All tests have passed.
+- [x] No existing features have been broken without good reason.
+- [x] Your commit messages are detailed.
+- [x] Test coverage of related files exceeds 80%.
+- [x] All tests have passed.
 
 Any questions should be directed to @{user}.
 
@@ -24,8 +24,8 @@ Replace "X" below with the name of the featureFlag.
 
 `localStorage.setItem('featureFlagsV2', '{ "X": true }')`
 
-## Other relevant information
+## QA notes
 
-Provide any other important details below.
+Provide related information that can help QA's.
 
 X
