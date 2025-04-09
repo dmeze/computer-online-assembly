@@ -1,10 +1,9 @@
 import cx from 'classnames'
 import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
-import { sumBy } from 'lodash'
 
 import { mapStepToIcon, mapTypeToIndex, steps } from '@/components/Steps/constants'
 import { selectCart } from '@/containers/Cart/cartSelectors'
@@ -21,8 +20,20 @@ const StepsPanel = () => {
   const cart = useSelector(selectCart)
   const { _id: user } = useSelector(selectUser)
   const [showModal, setShowModal] = useState(false)
+  const [cartSum, setCartSum] = useState(0)
 
   const currentStep = mapTypeToIndex[query?.type] || 0
+
+  const handleShowModal = () => {
+    setShowModal(true)
+    const sumWorker = new Worker(new URL('../../workers/sumWorker.js', import.meta.url))
+    sumWorker.postMessage({ array: cart?.accessoriesList, iteratee: 'price' })
+
+    sumWorker.onmessage = (e) => {
+      setCartSum(e.data)
+      sumWorker.terminate()
+    }
+  }
 
   const handleStepClick = (key) => {
     push({
@@ -71,7 +82,7 @@ const StepsPanel = () => {
                 </div>
               ))}
               <div className={styles.totalPrice}>
-                Total price: {sumBy(cart?.accessoriesList, 'price')} ₴
+                Total price: {cartSum} ₴
               </div>
             </div>
           }
@@ -96,7 +107,7 @@ const StepsPanel = () => {
         </div>
       ))}
       {cart?.accessoriesList?.length === 8 && (
-        <button className={styles.orderBtn} onClick={() => setShowModal(true)}>
+        <button className={styles.orderBtn} onClick={handleShowModal}>
           Create order
         </button>
       )}
